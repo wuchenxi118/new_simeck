@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b0a46c3-5983-470e-ba84-acb9a8fb37f7" name="Default Changelist" comment="" />
+    <list default="true" id="3b0a46c3-5983-470e-ba84-acb9a8fb37f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deal_data/shared_label_generate_load_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard_share_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal_data/add_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_data/add_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal_data/load_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_data/load_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_keras_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_keras_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_keras_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_keras_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_on_other_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_on_other_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_48bit_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_48bit_model.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,31 +23,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras_model.py">
+        <entry file="file://$PROJECT_DIR$/hard_share_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="227" column="52" selection-start-line="227" selection-start-column="52" selection-end-line="227" selection-end-column="52" />
+            <state relative-caret-position="5723">
+              <caret line="348" column="20" selection-start-line="348" selection-start-column="20" selection-end-line="348" selection-end-column="20" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train_48bit_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deal_data/load_data.py">
+        <entry file="file:///data/wuchenxi/oldcode/PycharmProjects/register_attack/eval_model_hw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="12618">
+              <caret line="1279" column="46" selection-start-line="1279" selection-start-column="36" selection-end-line="1279" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#3963#4421#0" />
+                <element signature="e#4473#6303#0" />
+                <element signature="e#6349#8032#0" />
+                <element signature="e#9039#12276#0" />
+                <element signature="e#20453#24497#0" />
+                <element signature="e#24643#33035#0" />
+                <element signature="e#42418#51178#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deal_data/shared_label_generate_load_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4518">
+              <caret line="259" column="118" selection-start-line="259" selection-start-column="118" selection-end-line="259" selection-end-column="118" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -44,25 +76,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deal_data/add_data.py">
+        <entry file="file://$PROJECT_DIR$/mult_gpu_keras_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+            <state relative-caret-position="198">
+              <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keras_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-371">
+              <caret line="159" column="100" selection-start-line="159" selection-start-column="87" selection-end-line="159" selection-end-column="100" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_on_other_dataset.py">
+        <entry file="file://$PROJECT_DIR$/deal_data/cut_label.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
+            <state relative-caret-position="72">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deal_data/load_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="58" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1574387282769" expanded="true" signature="3077:3381" ph="..." />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,12 +138,27 @@
       <find>seq = BatchNormalization()(seq)</find>
       <find>data</find>
       <find>.iloc</find>
+      <find>val</find>
+      <find>X_test</find>
+      <find>seq0</find>
+      <find>multi_gpu_model</find>
+      <find>print</find>
+      <find>choose_number</find>
     </findStrings>
     <replaceStrings>
       <replace>SeparableConv1D</replace>
       <replace>None</replace>
       <replace>seq = BatchNormalization(axis=1)(seq)</replace>
+      <replace>train</replace>
+      <replace>X_train_triplet</replace>
+      <replace>X_test_triplet</replace>
+      <replace>seq1</replace>
+      <replace>seq2</replace>
+      <replace>seq3</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,13 +172,19 @@
         <option value="$PROJECT_DIR$/deal_data/cut_label.py" />
         <option value="$PROJECT_DIR$/deal_data/generate_load_data.py" />
         <option value="$PROJECT_DIR$/mult_gpu_keras_model.py" />
-        <option value="$PROJECT_DIR$/simple_keras_model.py" />
         <option value="$PROJECT_DIR$/deal_data/load_data.py" />
-        <option value="$PROJECT_DIR$/generate_keras_model.py" />
-        <option value="$PROJECT_DIR$/keras_model.py" />
-        <option value="$PROJECT_DIR$/deal_data/add_data.py" />
         <option value="$PROJECT_DIR$/test_on_other_dataset.py" />
+        <option value="$PROJECT_DIR$/generate_keras_model.py" />
+        <option value="$PROJECT_DIR$/deal_data/generate_load_data_new.py" />
+        <option value="$PROJECT_DIR$/triplet_model.py" />
+        <option value="$PROJECT_DIR$/deal_data/copy_data.py" />
+        <option value="$PROJECT_DIR$/simple_keras_model.py" />
         <option value="$PROJECT_DIR$/train_48bit_model.py" />
+        <option value="$PROJECT_DIR$/deal_data/add_data.py" />
+        <option value="$PROJECT_DIR$/keras_model.py" />
+        <option value="$PROJECT_DIR$/deal_data/shared_label_generate_load_data.py" />
+        <option value="$PROJECT_DIR$/hard_share_network.py" />
+        <option value="$PROJECT_DIR$/a.py" />
       </list>
     </option>
   </component>
@@ -119,11 +192,13 @@
     <option name="width" value="1600" />
     <option name="height" value="860" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,21 +206,16 @@
               <item name="new_simeck" type="b2602c69:ProjectViewProjectNode" />
               <item name="new_simeck" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="new_simeck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new_simeck" type="462c0819:PsiDirectoryNode" />
-              <item name="deal_data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/data/wuchenxi/oldcode/PycharmProjects/dealdata/data_add_indisk.py" />
+    <property name="last_opened_file_path" value="/data/wuchenxi/oldcode/PycharmProjects/register_attack/eval_model_hw.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -185,6 +255,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="copy_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="simeck_only_collected_key" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deal_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deal_data/copy_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cut_first_data_as_testset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="simeck_only_collected_key" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,50 +291,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deal_data/load_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cut_label" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="simeck_only_collected_key" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deal_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deal_data/cut_label.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="find_error (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="simeck_only_collected_key" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deal_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deal_data/find_error.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,13 +321,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="generate_load_data_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="simeck_only_collected_key" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deal_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deal_data/generate_load_data_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.add_data" />
+        <item itemvalue="Python.copy_data" />
+        <item itemvalue="Python.generate_load_data_new" />
         <item itemvalue="Python.cut_first_data_as_testset" />
         <item itemvalue="Python.generate_load_data" />
-        <item itemvalue="Python.cut_label" />
-        <item itemvalue="Python.find_error (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -299,23 +369,39 @@
       <workItem from="1573469087304" duration="29040000" />
       <workItem from="1573719341369" duration="98000" />
       <workItem from="1573779426986" duration="27529000" />
-      <workItem from="1574132812427" duration="28097000" />
+      <workItem from="1574132812427" duration="34390000" />
+      <workItem from="1574863023079" duration="818000" />
+      <workItem from="1574926047790" duration="721000" />
+      <workItem from="1574926785370" duration="108000" />
+      <workItem from="1574927550074" duration="7692000" />
+      <workItem from="1574944117029" duration="3584000" />
+      <workItem from="1575247494223" duration="1227000" />
+      <workItem from="1575335832895" duration="5036000" />
+      <workItem from="1575508428155" duration="1260000" />
+      <workItem from="1575642899561" duration="12125000" />
+      <workItem from="1575963998620" duration="2109000" />
+      <workItem from="1575976730595" duration="135000" />
+      <workItem from="1576544732624" duration="1741000" />
+      <workItem from="1576805394037" duration="827000" />
+      <workItem from="1577150885103" duration="1262000" />
+      <workItem from="1577633436493" duration="1838000" />
+      <workItem from="1578557133136" duration="6716000" />
+      <workItem from="1598519456699" duration="1927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110974000" />
+    <option name="totallyTimeSpent" value="166393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="860" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17564103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13653846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2442953" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24324325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,6 +418,29 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.32948717" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13525641" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24324325" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.01923077" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32948717" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -340,13 +449,15 @@
     <SUITE FILE_PATH="coverage/new_simeck$find_error__1_.coverage" NAME="find_error (1) Coverage Results" MODIFIED="1573387635957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
     <SUITE FILE_PATH="coverage/simeck_only_collected_key$cut_first_data_as_testset.coverage" NAME="cut_first_data_as_testset Coverage Results" MODIFIED="1573177480358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
     <SUITE FILE_PATH="coverage/new_simeck$see_diff_signal.coverage" NAME="see_diff_signal Coverage Results" MODIFIED="1573387106016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
-    <SUITE FILE_PATH="coverage/new_simeck$add_data.coverage" NAME="add_data Coverage Results" MODIFIED="1574340535906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
+    <SUITE FILE_PATH="coverage/new_simeck$add_data.coverage" NAME="add_data Coverage Results" MODIFIED="1577635069491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
     <SUITE FILE_PATH="coverage/new_simeck$cut_first_data_as_testset.coverage" NAME="cut_first_data_as_testset Coverage Results" MODIFIED="1573982353981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
     <SUITE FILE_PATH="coverage/simeck_only_collected_key$find_error.coverage" NAME="find_error Coverage Results" MODIFIED="1573136123205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/data/wuchenxi/oldcode/PycharmProjects/register_attack" />
     <SUITE FILE_PATH="coverage/simeck_only_collected_key$addlabel_2.coverage" NAME="addlabel_2 Coverage Results" MODIFIED="1573140332940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/data/wuchenxi/oldcode/PycharmProjects/dealdata" />
     <SUITE FILE_PATH="coverage/new_simeck$generate_load_data.coverage" NAME="generate_load_data Coverage Results" MODIFIED="1573568653286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
     <SUITE FILE_PATH="coverage/simeck_only_collected_key$cut_label.coverage" NAME="cut_label Coverage Results" MODIFIED="1573141377844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
     <SUITE FILE_PATH="coverage/new_simeck$cut_label.coverage" NAME="cut_label Coverage Results" MODIFIED="1573540497877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
+    <SUITE FILE_PATH="coverage/new_simeck$copy_data.coverage" NAME="copy_data Coverage Results" MODIFIED="1575961771723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
+    <SUITE FILE_PATH="coverage/new_simeck$generate_load_data_new.coverage" NAME="generate_load_data_new Coverage Results" MODIFIED="1575943833092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deal_data" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///data/wuchenxi/oldcode/PycharmProjects/dealdata/addlabel_AESMCU_short.py">
@@ -356,20 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///data/wuchenxi/oldcode/PycharmProjects/register_attack/eval_model_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="1603" selection-start-line="1603" selection-end-line="1606" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#20453#24497#0" />
-            <element signature="e#24643#33035#0" />
-            <element signature="e#33186#42270#0" />
-            <element signature="e#42418#51178#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,26 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mult_gpu_keras_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="193" selection-start-line="193" selection-end-line="198" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple_keras_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///data/wuchenxi/oldcode/PycharmProjects/dealdata/liushuixian_mult.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3186" />
@@ -498,16 +575,6 @@
     </entry>
     <entry file="file:///data/wuchenxi/oldcode/PycharmProjects/dealdata/liushuixian_fullauto.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate_keras_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="155" column="101" selection-start-line="155" selection-start-column="101" selection-end-line="155" selection-end-column="101" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file:///data/wuchenxi/oldcode/PycharmProjects/dealdata/data_add_tfrecord.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,68 +613,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deal_data/cut_label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="43" column="132" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deal_data/generate_load_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="150" column="54" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="54" />
+        <state relative-caret-position="124">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deal_data/load_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="227" column="52" selection-start-line="227" selection-start-column="52" selection-end-line="227" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deal_data/add_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_on_other_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
+        <state relative-caret-position="450">
+          <caret line="40" column="103" selection-start-line="40" selection-start-column="103" selection-end-line="40" selection-end-column="103" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1574387282769" expanded="true" signature="3077:3381" ph="..." />
+            <marker date="1574666095831" expanded="true" signature="3079:3383" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/triplet_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_data/generate_load_data_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1289">
+          <caret line="165" column="49" selection-start-line="165" selection-start-column="49" selection-end-line="165" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_keras_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="233" selection-start-line="223" selection-start-column="4" selection-end-line="233" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_keras_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="168" lean-forward="true" selection-end-line="168" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_data/generate_load_data_SignalAddLabel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="278" lean-forward="true" selection-end-line="278" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_data/copy_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train_48bit_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="517">
+          <caret line="48" column="107" selection-start-line="48" selection-start-column="107" selection-end-line="48" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_data/add_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hard_share_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5723">
+          <caret line="348" column="20" selection-start-line="348" selection-start-column="20" selection-end-line="348" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///data/wuchenxi/oldcode/PycharmProjects/register_attack/eval_model_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12618">
+          <caret line="1279" column="46" selection-start-line="1279" selection-start-column="36" selection-end-line="1279" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#3963#4421#0" />
+            <element signature="e#4473#6303#0" />
+            <element signature="e#6349#8032#0" />
+            <element signature="e#9039#12276#0" />
+            <element signature="e#20453#24497#0" />
+            <element signature="e#24643#33035#0" />
+            <element signature="e#42418#51178#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_data/shared_label_generate_load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4518">
+          <caret line="259" column="118" selection-start-line="259" selection-start-column="118" selection-end-line="259" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_data/cut_label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_data/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mult_gpu_keras_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="159" column="100" selection-start-line="159" selection-start-column="87" selection-end-line="159" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

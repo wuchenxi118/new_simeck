@@ -17,7 +17,7 @@ def add_one_class_in_mem(ori_data,target_list,
     target_list_class = [i for i, x in enumerate(target_list) if x == class_str]
     target_list_class_length = len(target_list_class)
     merge_data_list = []
-
+    ori_data_len = ori_data.shape[0]
     print(class_str,'length_is:',target_list_class_length)
 
 
@@ -29,6 +29,19 @@ def add_one_class_in_mem(ori_data,target_list,
 
 
     for numbers in range(forloop_number):
+
+        if choose_number == "noise":
+            if numbers % 100 == 0:
+                print('begin', ' merge_data', class_str, numbers)
+            random_number1 = random.randint(0, target_list_class_length - 1)
+            random_number2 = random.randint(0, target_list_class_length - 1)
+            random_number_noise1 = random.randint(0, ori_data_len - 1)
+            random_number_noise2 = random.randint(0, ori_data_len - 1)
+
+            var_builder['merge_data' + str(numbers)] = \
+                ori_data[target_list_class[random_number1], :] + ori_data[target_list_class[random_number2],:] \
+                + ori_data[random_number_noise1, :] + ori_data[random_number_noise2, :]
+
 
         if choose_number == 2:
             if numbers % 100 == 0:
@@ -81,9 +94,14 @@ def add_one_class_in_mem(ori_data,target_list,
                 + ori_data[target_list_class[random_number7], :] + ori_data[target_list_class[random_number8],:] \
                 + ori_data[target_list_class[random_number9], :] + ori_data[target_list_class[random_number10], :]
 
+        if choose_number == "noise":
+            var_builder['merge_data' + str(numbers)] = (np.around(var_builder['merge_data' + str(numbers)], \
+                                                                    decimals=6)) / 4
 
-        var_builder['merge_data' + str(numbers)] = (np.around(var_builder['merge_data'+str(numbers)],\
-                                                                 decimals=6))/choose_number
+        else:
+
+            var_builder['merge_data' + str(numbers)] = (np.around(var_builder['merge_data'+str(numbers)],\
+                                                                    decimals=6))/choose_number
         var_builder['merge_data' + str(numbers)] = var_builder['merge_data' + str(numbers)].astype(np.float32)
 
         merge_data_list.append(var_builder['merge_data' + str(numbers)])
@@ -94,6 +112,17 @@ def add_one_class_in_mem(ori_data,target_list,
     merge_data_list = np.array(merge_data_list)
 
     return merge_data_list
+
+
+
+
+
+
+
+
+
+
+
 
 
 def add_all_class_in_mem_return_ori_and_add_data(signal_data_path,label_path,which_line,which_letter,key_length,
@@ -131,8 +160,9 @@ def add_all_class_in_mem_return_ori_and_add_data(signal_data_path,label_path,whi
         gc.collect()
         for ori_label in target_list:
             train_y.append(ori_label)
-    del ori_data
-    gc.collect()
+    else:
+        del ori_data
+        gc.collect()
 
     train_y = to_categorical(train_y,16)
 
@@ -148,17 +178,17 @@ if __name__=='__main__':
 
 
     # data1 = add_one_class(class_str='10',forloop_number_input=200,class_save_path=None,choose_number=2)
-    # data1 = add_one_class_in_mem(signal_data_path='/data/wuchenxi/new_simeck_data/signal54400_v2/signal321_10000/',
+    # data1 = add_one_class_noise_in_mem(signal_data_path='/data/wuchenxi/new_simeck_data/signal54400_v2/signal321_10000/',
     #                              label_path='/data/wuchenxi/new_simeck_data/signal54400_v2/new_simeck_321_10000.txt',
     #                              which_line=0,which_letter=0,key_length=4*9680,
     #                              class_str='15',forloop_number_input=100,choose_number=10)
     data1,label1 = add_all_class_in_mem_return_ori_and_add_data(signal_data_path='/data/wuchenxi/new_simeck_data/signal54400_v2/signal321_10000/',
                                  label_path='/data/wuchenxi/new_simeck_data/signal54400_v2/new_simeck_321_10000.txt',
                                  which_line=0,which_letter=0,key_length=4*9680,
-                                 each_class_number=200,choose_number=2,add_ori_data=True)
-    print(data1.shape)
-    print(label1.shape)
-    # print(data1[0])
-    print(data1)
+                                 each_class_number=20,choose_number="noise",add_ori_data=True)
+    # print(data1.shape)
+    # print(label1.shape)
+    # # print(data1[0])
+    # print(data1)
 
     # do_it(each_class_number=200,save_path='/data/data1/data/wuchenxi/final/luoman_add4',c_number=4)

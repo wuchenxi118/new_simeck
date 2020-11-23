@@ -18,7 +18,7 @@ from deal_data.generate_load_data import generate_load_data
 from keras.utils import to_categorical
 from deal_data.add_data import add_all_class_in_mem_return_ori_and_add_data
 
-model = load_model('/data/wuchenxi/allmodel/new_simeck_model/54080_circle_v1_1_1/model/54080_circle_v1_1_1.hdf5')
+model = load_model('/data/wuchenxi/allmodel/new_simeck_model/signal9690_circle_trans_from108800_0_0_v2(trfmerge_drop(0.1)).hdf5/model/signal9690_circle_trans_from108800_0_0_v2(trfmerge_drop(0.1)).hdf5.hdf5')
 # /data/wuchenxi/allmodel/new_simeck_model/15000_1_1_v1/model/15000_1_1_v1.hdf5
 # /data/wuchenxi/allmodel/new_simeck_model/54080_1_1_v1/model/54080_1_1_v1.hdf5
 model.summary()
@@ -34,11 +34,11 @@ print('开始加载数据')
 #                                                                                        choose_number=2)
 
 
-data_to_train = load_data('/data/wuchenxi/new_simeck_data/signal54400_circle_v2/signal_320_v3/')
+data_to_train = load_data('/data/wuchenxi/new_simeck_data/signal54400_circle/signal_320_circle/')
 # data_to_train = data_to_train[10000:13000]
 
 
-label_to_train = cut_letter('/data/wuchenxi/new_simeck_data/signal54400_circle/new_simeck_320.txt', 1,1, 4*320)
+label_to_train = cut_letter('/data/wuchenxi/new_simeck_data/signal54400_circle/new_simeck_320.txt', 0,0, 4*320)
 label_to_train_lb = to_categorical(label_to_train, 16)
 
 

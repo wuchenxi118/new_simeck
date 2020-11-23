@@ -15,6 +15,11 @@ def load_single_data(signal):
 
 
 def load_data(signal_data_path):
+    """
+
+    :param signal_data_path: the signal folder path
+    :return: a numpy array ,which shape is like (50480,35000)
+    """
 
     signal_list = os.listdir(signal_data_path)
     signal_list.sort(key = lambda x:int(x[10:-4]))

@@ -22,7 +22,7 @@ import numpy as np
 from keras.layers import *
 from keras.models import Model,load_model
 from keras.callbacks import ModelCheckpoint,ReduceLROnPlateau,History,TensorBoard,CSVLogger
-from deal_data.generate_load_data import get_three_generater
+from deal_data.generate_load_data_SignalAddLabel import get_three_generater
 
 def BLOCK(seq, filters): # 定义网络的Block
     cnn = Conv1D(filters*2, 3, padding='SAME', dilation_rate=1, activation='relu')(seq)
@@ -39,7 +39,7 @@ def BLOCK(seq, filters): # 定义网络的Block
     seq = add([seq, cnn])
     return seq
 
-def resnet_model(trainFilePath,testFilePath,batch_size,epochs,name,lr,key_file,which_line,which_letter,load_weight=False,weight_path = None,evalONtest = True,validation_proportion=0.3,test_num = 100):
+def resnet_model(trainFilePath,testFilePath,batch_size,epochs,name,lr,key_file,which_line,which_letter,load_weight=False,weight_path = None,evalONtest = True,validation_proportion=0.1,test_num = 100,rm_already_folder = True):
     input_tensor = Input(shape=(35000, 1))
     seq = input_tensor
     seq = BLOCK(seq, 64)
@@ -73,7 +73,7 @@ def resnet_model(trainFilePath,testFilePath,batch_size,epochs,name,lr,key_file,w
     seq = BLOCK(seq, 512)
     seq = BatchNormalization(axis=1)(seq)
 
-    seq = Dropout(0.6)(seq)
+    seq = Dropout(0.1)(seq)
 
     seq = GlobalMaxPooling1D()(seq)
 
@@ -116,7 +116,7 @@ def resnet_model(trainFilePath,testFilePath,batch_size,epochs,name,lr,key_file,w
     train_generater,val_generater,test_generater,train_data_num,val_data_num = \
         get_three_generater(trainFilePath,key_file,which_line,which_letter,
                             validation_proportion=validation_proportion,
-                            test_num=test_num,batch_size=b_size)
+                            test_num=test_num,batch_size=b_size,rm_already_folder = rm_already_folder)
 
 
     print("Starting training ")
@@ -152,14 +152,17 @@ def resnet_model(trainFilePath,testFilePath,batch_size,epochs,name,lr,key_file,w
     step_per_epoch_default_val = int(val_data_num/batch_size)
     h = model.fit_generator(train_generater,
                             steps_per_epoch=step_per_epoch_default, epochs=max_epochs,
-                   verbose=1,callbacks=callback,workers=4,use_multiprocessing=True,
+                   verbose=1,callbacks=callback,
                             validation_data=val_generater,validation_steps=step_per_epoch_default_val)
 
 
-resnet_model('/data/wuchenxi/new_simeck_data/signal15000',key_file='/data/wuchenxi/new_simeck_data/new_simeck_15000.txt',
-            which_line=1,which_letter=1,
+resnet_model('/data/wuchenxi/new_simeck_data/signal108800_circle/signal108800',
+             key_file='/data/wuchenxi/new_simeck_data/signal108800_circle/new_key_108800.txt',
+            which_line=0,which_letter=2,
             testFilePath=None,
-             batch_size=16,epochs=250,name='15000_1_1_v1_generatermode',#'6000_7.16_multlabel_changehwplace'
+             batch_size=16,epochs=20,name='108800_0_2_v1_circle_generatermode',#'6000_7.16_multlabel_changehwplace'
              lr=1e-4,evalONtest=False,
-             load_weight=False,weight_path='/data/wuchenxi/allmodel/new_simeck_model/10000_1_1_v1/model/6000_1_1_v1.hdf5')
+             load_weight=True,
+             weight_path='/data/wuchenxi/allmodel/new_simeck_model/54080_circle_v1_0_0/model/54080_circle_v1_0_0.hdf5',
+             rm_already_folder=False)
 

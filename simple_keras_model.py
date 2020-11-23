@@ -220,12 +220,15 @@ def vgg16_model(trainFilePath,testFilePath,batch_size,epochs,name,lr,key_file,wh
 #              lr=1e-3,evalONtest=False,
 #              load_weight=False)
 
-vgg16_model('/data/wuchenxi/new_simeck_data/signal54400_v2/signal54080_v2/',key_file='/data/wuchenxi/new_simeck_data/signal54400_v2/new_simeck_54080.txt',
-            which_line=1,which_letter=1,key_length=4*54080,
-            test_size=0.1,
-            testFilePath=None,
-             batch_size=16,epochs=250,name='54080_v2_1_1_v1',#'6000_7.16_multlabel_changehwplace'
-             lr=1e-4,evalONtest=False,
-             load_weight=False)
+if __name__ == '__main__':
+    vgg16_model('/data/wuchenxi/new_simeck_data/signal54400_circle/signal54080circle/',
+                key_file='/data/wuchenxi/new_simeck_data/signal54400_circle/new_simeck_54080.txt',
+                which_line=0,which_letter=1,key_length=4*54080,
+                test_size=0.1,
+                testFilePath=None,
+                 batch_size=16,epochs=250,name='54080_0_1_vgg16_circle',#'6000_7.16_multlabel_changehwplace'
+                 lr=1e-4,evalONtest=False,
+                 load_weight=True,
+                weight_path='/data/wuchenxi/allmodel/new_simeck_model/54080_1_0_vgg16_circle/model/54080_1_0_vgg16_circle.hdf5')
 
 

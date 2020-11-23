@@ -27,7 +27,7 @@ from deal_data.load_data import load_data
 from deal_data.add_data import add_all_class_in_mem_return_ori_and_add_data
 
 
-def BLOCK(seq, filters): # 定义网络的Block
+def BLOCK(seq, filters):
     cnn = Conv1D(filters*2, 3, padding='SAME', dilation_rate=1, activation='relu')(seq)
     cnn = BatchNormalization(axis=1)(cnn)
     cnn = Lambda(lambda x: x[:,:,:filters] + x[:,:,filters:])(cnn)
@@ -48,7 +48,7 @@ class EvaluateInputTensor(Callback):
     def __init__(self, model,test_X,test_Y,test_log, metrics_prefix='val', verbose=1):
         # parameter of callbacks passed during initialization
         # pass evalation mode directly
-        # 初始化传递模式中的回调参数
+
         super(EvaluateInputTensor, self).__init__()
         self.val_model = model
         self.testx = test_X
@@ -127,7 +127,7 @@ def resnet_model(trainFilePath,testFilePath,batch_size,epochs,name,lr,
         pass
 
     from keras.optimizers import Adam
-    model.compile(loss='categorical_crossentropy',  # 交叉熵作为loss
+    model.compile(loss='categorical_crossentropy',
                   optimizer=Adam(lr),
                   metrics=['accuracy'])
 
@@ -218,12 +218,25 @@ def resnet_model(trainFilePath,testFilePath,batch_size,epochs,name,lr,
 #weight_path = '/data/wuchenxi/allmodel/simeck_key_model/merge32000_1_4_4(v2untrans).hdf5'
 
 if __name__ == '__main__':
-    resnet_model('/data/wuchenxi/new_simeck_data/signal54400_circle/signal54080circle/',
-                 key_file='/data/wuchenxi/new_simeck_data/signal54400_circle/new_simeck_54080.txt',
-                which_line=0,which_letter=0,key_length=4*54080,
-                test_size=0.1,
-                testFilePath=None,
-                 batch_size=16,epochs=250,name='54080_circle_v1_0_0_54000add2_onlyadd',#'6000_7.16_multlabel_changehwplace'
-                 lr=1e-4,evalONtest=False,
-                 use_add=True,each_class_number=3375,choose_number=2,
-                 load_weight=True,weight_path='/data/wuchenxi/allmodel/new_simeck_model/54080_circle_v1_0_0/model/54080_circle_v1_0_0.hdf5')
+    # resnet_model('/data/wuchenxi/new_simeck_data/signal108800_circle/signal108800/',
+    #              key_file='/data/wuchenxi/new_simeck_data/signal108800_circle/new_key_108800.txt',
+    #             which_line=0,which_letter=3,key_length=4*108800,
+    #             test_size=0.1,
+    #             testFilePath=None,
+    #              batch_size=16,epochs=30,name='108800_circle_v1_0_3',#'6000_7.16_multlabel_changehwplace'
+    #              lr=1e-4,evalONtest=False,
+    #              use_add=False,each_class_number=3375,choose_number=2,
+    #              load_weight=True,weight_path='/data/wuchenxi/allmodel/new_simeck_model/54080_circle_v1_0_0/model/54080_circle_v1_0_0.hdf5')
+
+
+    resnet_model('/data/wuchenxi/new_simeck_data/signal54400_circle/signal321_10000/',
+                 key_file='/data/wuchenxi/new_simeck_data/signal54400_circle/new_simeck_321_10000.txt',
+                 which_line=0, which_letter=0, key_length=4 * 9680,
+                 test_size=0.1,
+                 testFilePath=None,
+                 batch_size=16, epochs=30, name='mergenoisev2_80000_temple_0_0',
+                 # '6000_7.16_multlabel_changehwplace'
+                 lr=1e-4, evalONtest=False,
+                 use_add=True, each_class_number=5000, choose_number="noise",
+                 load_weight=True,
+                 weight_path='/data/wuchenxi/allmodel/new_simeck_model/54080_circle_v1_0_0/model/54080_circle_v1_0_0.hdf5')
